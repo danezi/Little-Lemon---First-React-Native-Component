@@ -9,7 +9,9 @@ export default function App() {
   return (
     <View style={{ flex: 1, flexDirection: 'column', backgroundColor: '#495E57' }}>
       <LittleLemonHeader />
-      <WelcomeScreen />
+      <View style={{ flex: 1 }}>
+        <WelcomeScreen />
+      </View>
       <LittleLemonFooter />
     </View>
   );
