@@ -8,16 +8,14 @@ import WelcomeScreen from './components/WelcomeScreen';
 
 export default function App() {
   return (
-    <>
-      <View style={styles.container}>
-        <LittleLemonHeader />
-        {/* <LoginScreen /> */}
-        <WelcomeScreen />
-      </View>
+    <View style={styles.container}>
+      <LittleLemonHeader />
+      {/* <LoginScreen /> */}
+      <WelcomeScreen />
       <View style={styles.footerContainer}>
         <LittleLemonFooter />
       </View>
-    </>
+    </View>
   );
 }
 
